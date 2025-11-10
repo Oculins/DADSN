@@ -1,0 +1,9 @@
+numpy
+scipy
+trimesh
+open3d
+torch
+torchvision
+pandas
+tensorboard
+tqdm
