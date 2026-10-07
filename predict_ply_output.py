@@ -22,7 +22,7 @@ def parse_args():
     parser.add_argument('--gpu', type=str, default='1', help='specify gpu device')
     parser.add_argument('--npoint', type=int, default=16000, help='point number [default: 4096]') ###
     parser.add_argument('--num_classes', type=int, default=17, help='Number of classes') ###
-    parser.add_argument('--ckp_path', type=str, default='best_model.pth', help='experiment root')  ###
+    parser.add_argument('--ckp_path', type=str, default=r'outputs\Teeth3DS\models\best_model.pth', help='experiment root')  ###
     parser.add_argument('--emb_dims', type=int, default=1024, metavar='N', help='Dimension of embeddings')
     parser.add_argument('--k', type=int, default=32, metavar='N', help='Num of nearest neighbors to use')
     parser.add_argument('--expand_times', type=float, default=1)
