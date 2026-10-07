@@ -37,6 +37,14 @@ python step2_train.py
 python step3_test.py
 ```
 
+## Weights
+
+download weights from
+
+https://drive.google.com/file/d/1f98a3nUMBokiy1qWkkndXJ1cejKcmlUm/view?usp=sharing
+
+and put them under `/outputs`
+
 ## Inference on your private IOS data
 
 move your private data to `/work/input`, and the segmentation results will be saved in `/work/output`
